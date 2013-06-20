@@ -1,21 +1,21 @@
 
-CREATE TABLE CHILD_TBL (
-    ID INT IDENTITY(1,1) NOT NULL,
-    fName VARCHAR(30) NOT NULL,
-    lName VARCHAR(30) NOT NULL,
-    dateOfBirth DATETIME NOT NULL,
-    guardianFName VARCHAR(30) NOT NULL,
-    guardianLName VARCHAR(30) NOT NULL,
-    address VARCHAR(40) NOT NULL,
-	address2 VARCHAR(15) NULL,
-    city VARCHAR(30) NOT NULL,
-    state VARCHAR(2) NOT NULL,
-    zip INT NOT NULL,
-    phone VARCHAR(14) NOT NULL,
-    eMail VARCHAR(50) NULL,
-    emContactName VARCHAR(60) NOT NULL,
-    emContactPhone VARCHAR(14) NOT NULL
-);
+--CREATE TABLE CHILD_TBL (
+--    ID INT IDENTITY(1,1) NOT NULL,
+--    fName VARCHAR(30) NOT NULL,
+--    lName VARCHAR(30) NOT NULL,
+--    dateOfBirth DATETIME NOT NULL,
+--    guardianFName VARCHAR(30) NOT NULL,
+--    guardianLName VARCHAR(30) NOT NULL,
+--    address VARCHAR(40) NOT NULL,
+--	address2 VARCHAR(15) NULL,
+--    city VARCHAR(30) NOT NULL,
+--    state VARCHAR(2) NOT NULL,
+--    zip INT NOT NULL,
+--    phone VARCHAR(14) NOT NULL,
+--    eMail VARCHAR(50) NULL,
+--    emContactName VARCHAR(60) NOT NULL,
+--    emContactPhone VARCHAR(14) NOT NULL
+--);
 
 INSERT INTO CHILD_TBL(fName,lName,dateOfBirth,guardianFName,guardianLName,address,address2,city,state,zip,phone,eMail,emContactName,emContactPhone) VALUES('Katell','Chapman','2011-10-19','Kirby','Flores','1978 Rutrum Street','Queenstown','Rangiora','SI','','(357) 911-8723','neque.venenatis.lacus@sociisnatoquepenatibus.net','Rebekah E. Mays','(306) 322-4859');
 INSERT INTO CHILD_TBL(fName,lName,dateOfBirth,guardianFName,guardianLName,address,address2,city,state,zip,phone,eMail,emContactName,emContactPhone) VALUES('Yasir','Elliott','2007-05-07','Britanney','Phelps','3491 Accumsan Ave','Santa Cruz de Tenerife','San Cristóbal de la Laguna','Canarias','','(855) 170-8299','habitant.morbi@sed.co.uk','Kylynn Z. Hardin','(702) 252-4695');
